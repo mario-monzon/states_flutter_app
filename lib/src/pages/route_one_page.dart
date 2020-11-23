@@ -46,19 +46,6 @@ class UserInfo extends StatelessWidget {
             title: Text(cTitle),
             subtitle: Text(cSubtitle),
           ),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.end,
-            children: [
-              FlatButton(
-                child: Text('Cancelar'),
-                onPressed: (){},
-              ),
-              FlatButton(
-                child: Text('Ok'),
-                onPressed: (){},
-              ),
-            ],
-          )
         ],
       ),
     );
